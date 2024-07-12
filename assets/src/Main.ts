@@ -6,6 +6,7 @@ const POINT_DISTANCE = 20;
 //点角度
 const POINT_ANGLE = 2;
 
+//test
 @ccclass('Main')
 export class Main extends Component {
     @property(Camera)
