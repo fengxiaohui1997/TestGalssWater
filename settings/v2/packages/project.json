@@ -1,0 +1,35 @@
+{
+  "__version__": "1.0.6",
+  "layer": [
+    {
+      "name": "water",
+      "value": 524288
+    }
+  ],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "water"
+      },
+      {
+        "index": 2,
+        "name": "glassLine"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 7,
+      "2": 2
+    }
+  },
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": true,
+      "width": 750,
+      "height": 1334
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
